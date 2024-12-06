@@ -25,7 +25,9 @@ public class ValidLoginTest extends BaseTest
 		//4.verifyHomepage
 		EnterTimeTrackPage homepage=new EnterTimeTrackPage(driver);
 		boolean result = homepage.VerifyHomePageisDisplayed(wait);
-		Assert.assertEquals(result, true);	
+		Assert.assertEquals(result, true);
+		
+		
 	}
 
 }
